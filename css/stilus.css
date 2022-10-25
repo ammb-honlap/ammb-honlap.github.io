@@ -11,9 +11,9 @@
 	background: url(preloader_2.gif) center no-repeat #fff;
 }
 
-/*#bodycontent {
-    display: noe;
-}*/
+#bodycontent {
+     overflow-x: hidden;
+}
 
 #focim {
     background-color: #1B5C93;
@@ -98,9 +98,9 @@
 	color: white;
     	border-bottom: 1px solid #dbdbdb;
 	border-top: 1px solid #dbdbdb;
-    /*position: absolute;
-    width: 100%;
-    bottom: 0;*/
+    	position: fixed;
+   	bottom: 0;
+   	width: 100%;
 	}
 
 #szeles {
