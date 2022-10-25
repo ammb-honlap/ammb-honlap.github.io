@@ -1,0 +1,154 @@
+/* Paste this css to your style sheet file or under head tag */
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(preloader_2.gif) center no-repeat #fff;
+}
+
+/*#bodycontent {
+    display: noe;
+}*/
+
+#focim {
+    background-color: #1B5C93;
+	color: white;
+	text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    padding-top: 10px;
+}
+
+.menu {
+    /*padding: 20px;*/
+    }
+
+.menu span {
+  color: #1B5C93;
+  font-size: 20px;
+  font-weight: bold;
+  /*text-transform: uppercase;*/
+  text-decoration: none;
+  align-content:left;
+}
+
+.menu .red  {
+  color: #98252c;
+}
+
+.menu h3 {
+    margin-bottom: 0px;
+    }
+
+.menu .active {
+  color: black;
+}
+
+.menu .notontop {
+  margin-top: 0px;
+}
+
+.menu span:hover {
+  color: black;
+  cursor: pointer;
+}
+
+
+#pagecontent {
+  background-color: white;
+  /*color: #49494D;*/
+  color: black;
+  text-align: justify;
+	}
+	#pagecontent h3 {
+
+		/*font-family: 'Shift', sans-serif;*/
+		font-size: 20px;
+		font-weight: bold;
+		padding-bottom: 0px;
+	}
+	#pagecontent p {
+		font-size: 16px;
+	}
+    #pagecontent ul {
+        font-size: 16px;
+        padding-left: 20px;
+    }
+	#pagecontent a {
+		color: #1B5C93;/*#00b0ff;*/
+	}
+	#pagecontent a:hover {
+		color: #98252c; /*#2E5CE6;*/
+		text-decoration: none;
+
+	}
+
+
+.footer {
+    background-color: #1B5C93;
+    /* #64646B; */
+    font-size: 16px;
+	padding: 0px;
+	margin-top: 10px;
+	color: white;
+    	border-bottom: 1px solid #dbdbdb;
+	border-top: 1px solid #dbdbdb;
+    /*position: absolute;
+    width: 100%;
+    bottom: 0;*/
+	}
+
+#szeles {
+	padding-left: 50px;
+	padding-right: 50px;
+	margin: 0px;
+	width: 100%;
+}
+
+#bold {
+	font-weight: bold;
+}
+
+#unbold {
+	font-weight: normal;
+}
+
+#kepem {
+    height: 200px;
+}
+
+#kepek {
+    padding-top: 20px;
+   padding-bottom: 10px;
+}
+
+.icon {
+    padding-right: 8px;
+}
+
+.red {
+    color: #98252c;
+}
+
+.centered {
+    text-align: center;
+}
+
+.myDIV {
+    color: #98252c;
+    border-style: solid;
+     text-align: center;
+}
+
+.myDIV:hover {
+    background-color: #98252c;
+    color: white;
+    border-style: solid;
+     text-align: center;
+}
+
