@@ -11,9 +11,9 @@ var main = function () {
               $("#pagecontent").fadeOut(animationtime, function() {
                   $("#pagecontent").load(linktocontent, function() {
                       $("#pagecontent").fadeIn(animationtime);
-                      $(".footer").fadeIn(animationtime);
+                      // $(".footer").fadeIn(animationtime);
                     })});
-              $(".footer").fadeOut(animationtime);
+              // $(".footer").fadeOut(animationtime);
         };
 
 
